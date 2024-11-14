@@ -1,6 +1,3 @@
-Here’s a professional and engaging `README.md` for your GitHub Pages portfolio:
-
----
 
 # Eyyüb Güven
 
