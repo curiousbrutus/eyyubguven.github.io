@@ -1,25 +1,84 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
 }
 
 header {
-    background-color: #4CAF50;
-    color: white;
-    padding: 1em;
+    text-align: center;
+    padding: 20px;
+    background-color: #4a90e2;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.about, .projects, .contact {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.card {
+    background: #4a90e2;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.contact p {
     text-align: center;
 }
 
-section {
-    margin: 1em;
-    padding: 1em;
-    border-bottom: 1px solid #ddd;
+.socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
 }
 
-footer {
-    text-align: center;
-    padding: 1em;
-    background-color: #f4f4f4;
+.socials a {
+    color: #4a90e2;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.socials a:hover {
+    color: #333;
 }
